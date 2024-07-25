@@ -5,7 +5,7 @@ import '../styles/navbar_home.css'; // Adjust the path to match the correct dire
 const HomeNavbar = () => {
   return (
     <nav className="navbar">
-      <Link to="/landing" className="nav-link">Landing Page</Link>
+      <Link to="/" className="nav-link">Landing Page</Link>
       <Link to="/signup" className="nav-link">Sign Up</Link>
       <Link to="/signin" className="nav-link">Sign In</Link>
       <Link to="/create-service" className="nav-link">Create Service</Link>

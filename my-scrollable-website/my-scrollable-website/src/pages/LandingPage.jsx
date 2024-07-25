@@ -1,10 +1,11 @@
-// src/pages/LandingPage.jsx
 import React from 'react';
+import HomeNavbar from '../components/navbar_home';
 
 const LandingPage = () => {
   return (
     <div>
-      <h1>Welcome to Fiverr 2.0</h1>
+      <HomeNavbar />
+      <h1>Welcome to the Landing Page</h1>
     </div>
   );
 };
