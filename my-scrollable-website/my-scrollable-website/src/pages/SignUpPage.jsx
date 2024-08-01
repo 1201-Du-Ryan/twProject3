@@ -6,12 +6,13 @@ import CustomButton from '../components/custom_button';
 
 const SignUpPage = () => {
   return (
-    <Container maxWidth="xs">
+    <Container maxWidth="lg">
       <Box
         sx={{
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
+          justifyContent: 'center',
           marginTop: 8,
           padding: 3,
           borderRadius: 2,
