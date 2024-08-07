@@ -1,0 +1,122 @@
+/* src/pages/CreateServicePage.css */
+.create-service-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:50px;
+  }
+  
+  .title {
+    position: absolute;
+    left: 63px;
+    top: 56px;
+    width: 328px;
+    height: 41px;
+    font-size: 28px; 
+  }
+  
+  .create-service-form {
+    display: flex;
+    flex-direction: column;
+    width: 130%;
+    max-width: 1000px;
+    margin-top: 100px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  
+  .form-group.responsive-row {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 600px) {
+    .form-group.responsive-row {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+    .form-group.responsive-row .form-label {
+      margin-right: 20px;
+      align-self: flex-start;
+    }
+    .form-group.responsive-row .form-input,
+    .form-group.responsive-row .form-textarea,
+    .form-group.responsive-row .form-select {
+      flex: 1;
+    }
+    .form-group.responsive-row .form-textarea-wrapper {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .form-group.responsive-row .form-textarea {
+      height: 150px;
+      flex: 1;
+    }
+  }
+  
+  .form-label {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .form-input,
+  .form-textarea,
+  .form-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .form-textarea-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-textarea {
+    height: 100px;
+  }
+  
+  .word-count {
+    font-size: 14px;
+    color: grey;
+    margin-top: 5px;
+  }
+  
+  .category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    max-height: 100px;
+    overflow-y: auto;
+  }
+  
+  .category-list li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .category-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .submit-button {
+    padding: 8px 16px;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    align-self: flex-start;
+  }
+  
+  .submit-button:hover {
+    background-color: #333;
+  }
+  
