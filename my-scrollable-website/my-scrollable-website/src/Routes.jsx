@@ -6,6 +6,8 @@ import SignUpPage from './pages/SignUpPage';
 import SignInPage from './pages/SignInPage';
 import CreateServicePage from './pages/CreateServicePage';
 import ServicePage from './pages/ServicePage';
+import ForgotPasswordPage from './pages/ForgotPasswordPage';
+
 
 const AppRoutes = () => {
   return (
@@ -14,6 +16,7 @@ const AppRoutes = () => {
         <Route path="/" element={<LandingPage />} />
         <Route path="/signup" element={<SignUpPage />} />
         <Route path="/signin" element={<SignInPage />} />
+        <Route path="/forgot-password" element={<ForgotPasswordPage />} />
         <Route path="/create-service" element={<CreateServicePage />} />
         <Route path="/service" element={<ServicePage />} />
       </Routes>
